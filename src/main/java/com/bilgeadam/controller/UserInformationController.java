@@ -28,11 +28,11 @@ public class UserInformationController {
 	}
 
 	public UserInformation createUserInformation(User user) {
-		System.out.println("Lütfen  isminizi giriniz");
+		System.out.println("Enter your name");
 		String name = scanner.nextLine();
-		System.out.println("Lütfen soyadýnýzý giriniz");
+		System.out.println("Enter your surname");
 		String lastName = scanner.nextLine();
-		System.out.println("Lütfen e-mailnizi giriniz");
+		System.out.println("Enter your email");
 		String email = scanner.nextLine();
 		List<PhoneNumber> phoneNumbers = new ArrayList<>();
 		List<Address> addresses = new ArrayList<>();
@@ -45,11 +45,11 @@ public class UserInformationController {
 	}
 
 	public UserInformation createUserInformation() {
-		System.out.println("Lütfen  isminizi giriniz");
+		System.out.println("Enter your name");
 		String name = scanner.nextLine();
-		System.out.println("Lütfen soyadýnýzý giriniz");
+		System.out.println("Enter your surname");
 		String lastName = scanner.nextLine();
-		System.out.println("Lütfen e-mailnizi giriniz");
+		System.out.println("Enter your email");
 		String email = scanner.nextLine();
 		List<PhoneNumber> phoneNumbers = new ArrayList<>();
 		List<Address> addresses = new ArrayList<>();

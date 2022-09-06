@@ -22,11 +22,11 @@ public class UserService extends MyFactoryService<MyFactoryRepository, User, Lon
 		Optional<User> user = repository.findbyUsernameAndPassword(username, password);
 		if (user.isPresent()) {
 
-			System.out.println("Kullanýcý Bulundu");
+			System.out.println("User has been found");
 
 		} else {
 
-			System.out.println("Kullanýcý Bulunamadý");
+			System.out.println("User has not been found");
 		}
 		return user;
 	}

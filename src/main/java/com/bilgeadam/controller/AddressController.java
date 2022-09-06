@@ -16,7 +16,7 @@ public class AddressController {
 
 	public Address createAddress() {
 
-		System.out.println("Lütfen adresinizi giriniz");
+		System.out.println("Please enter your address");
 		String address = scanner.nextLine();
 		return addressService.save(new Address(address));
 	}

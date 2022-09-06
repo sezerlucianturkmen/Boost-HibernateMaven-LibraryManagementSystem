@@ -29,6 +29,16 @@ public class Author {
 		this.books = books;
 	}
 
+	public Author(String firstName, String lastName) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
+
+	public Author() {
+		super();
+	}
+
 	public Long getId() {
 		return id;
 	}

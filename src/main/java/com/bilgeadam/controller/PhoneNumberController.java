@@ -17,7 +17,7 @@ public class PhoneNumberController {
 
 	public PhoneNumber createPhoneNumber() {
 
-		System.out.println("Lütfen telefon numaranýzý giriniz");
+		System.out.println("Please enter your phonenumber");
 		String phoneNumber = scanner.nextLine();
 		return phoneNumberService.save(new PhoneNumber(phoneNumber));
 	}
